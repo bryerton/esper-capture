@@ -1,0 +1,12 @@
+language: python
+python:
+- '2.7'
+script:
+- touch CHANGES.txt
+deploy:
+  provider: pypi
+  user: bryerton
+  password:
+    secure: update_for_capture
+  on:
+    branch: master

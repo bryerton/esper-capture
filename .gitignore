@@ -1,0 +1,5 @@
+dist
+esper_capture.egg-info
+esper_capture/*.pyc
+esper_catpure/__pycache__
+.pypirc

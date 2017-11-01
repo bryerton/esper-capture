@@ -1,0 +1,3 @@
+include README.rst
+prune build
+prune dist
